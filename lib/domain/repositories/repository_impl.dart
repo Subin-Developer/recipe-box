@@ -36,6 +36,7 @@ class UserRepositoryImpl implements RecipeRepository {
         originalName: ingredient.originalName,
         amount: ingredient.amount,
         unit: ingredient.unit,
+        
         meta: List<String>.from(ingredient.meta),
         measures: Measures(
           us: Us(
